@@ -1,4 +1,4 @@
-package database;
+package mx.pig.database;
 
 import mx.pig.collector.R;
 import android.app.Activity;

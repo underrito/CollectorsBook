@@ -1,6 +1,6 @@
 package mx.pig.collector;
 
-import database.PIGDatabaseHelper;
+import mx.pig.database.PIGDatabaseHelper;
 import android.os.Bundle;
 import android.app.Activity;
 import android.view.Menu;
