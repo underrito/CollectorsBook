@@ -85,10 +85,10 @@ public class PIGDatabaseHelper
 			inserts=new StringBuffer();
 			
 			
-						
+			 			
 			inserts.append("INSERT INTO PIG_CATEGORIA (ID_CATEGORIA,DESCRCATEGORIA,ID_CATEGORIAPARENT,ID_TIPOVISTA) VALUES(1,'DEFAULT',0,2);");
 			executeCommandBD(inserts.toString());			
-			inserts=new StringBuffer();
+			inserts=new StringBuffer(); 
 			
 			
 			inserts.append("INSERT INTO PIG_ITEM(ID_ITEM,ID_CATEGORIA) VALUES(1,1);");
